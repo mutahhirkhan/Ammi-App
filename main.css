@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+html {
+  font-size: 62.5%;
+  color: antiquewhite;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+:root {
+  --blue_color: #02163b;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  row-gap: 1.5rem;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(190, 212, 167);
+  background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.9)),url(./10_gettyimages_686873166_resized.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* filter: drop-shadow(5px 5px 5px #434346); */
+  /* filter: drop-shadow(5px 5px 5px black); */
+  font-family: 'Sansita Swashed', cursive;
+  
+
+}
+.heading{
+  font-size: 2rem;
+  margin-top: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.form1{
+  display: flex;
+  width: max-content;
+  flex-flow: column;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  /* background: firebrick; */
+  row-gap: 1rem;
+  color: antiquewhite;
+  font-family: 'Sansita Swashed', cursive;
+
+}
+
+#todaysPrice{
+  height: 2.5rem;
+  border-bottom: 1px solid black;
+  background: none;
+  margin: 1rem;
+  width: 14rem;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+  color: antiquewhite;
+  font-size: 2.5rem; 
+  font-family: 'Sansita Swashed', cursive;
+
+}
+#todaysPrice:hover{
+  /* background: white; */
+  opacity: 0.2;
+
+}
+
+#currentDate{
+  text-align: center;
+  height: 3rem;
+  width: auto;
+  filter: drop-shadow(5px 5px 5px #434346);
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+
+#totalPrice {
+  height: 3rem;
+  width: 3rem;
+  /* background: lightblue; */
+  margin: 0px 0.8rem;
+  text-align: center;
+  margin: 5px;
+
+}
+
+.general-button .btn {
+  height: 4.5rem;
+  width: 15rem;
+  background: darkblue;
+  border-radius: 4px;
+}
+
+.general-button {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: column;
+  width: max-content;
+  /* background: chocolate; */
+  cursor: pointer;
+}
+
+.general-button .btn1 {
+  background: var(--blue_color);
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  border: 1px solid black;
+  opacity: 0.9;
+  z-index: 9;
+}
+.general-button .btn2 {
+  margin: 1rem 1rem;
+  filter: drop-shadow(1px 1px 10px white);
+  background: rgba(26, 26, 26, 0.2);
+  border: 1px solid black;
+  transition: 400ms all ease-in-out;
+}
+.general-button:hover .btn2 {
+  transform: translateX(1.7rem);
+}
+
+#totalPrice{
+  width: 13rem;
+  font-size: 2.5rem;
+  height: 2.5rem;
+  border-bottom: 1px solid black;
+  background: none;
+  margin: 1rem;
+  /* width: 14rem; */
+  text-align: center;
+  transition: all 300ms ease-in-out;
+  /* color: antiquewhite; */
+  /* font-size: large; */
+}
+.form2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: max-content;
+  margin: 5px;
+  padding: 5px;
+  /* background: firebrick; */
+  row-gap: 1.2rem;
+}
